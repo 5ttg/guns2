@@ -19,7 +19,7 @@ WEBHOOK_RATE = os.getenv("WEBHOOK_RATE")
 MODE = os.getenv("MODE", "wordlist")
 WORDLIST = os.getenv("WORDLIST", "words.txt")
 AMOUNT = int(os.getenv("AMOUNT", "5000"))
-CONCURRENCY = int(os.getenv("PAGES", "3"))
+CONCURRENCY = int(os.getenv("PAGES", "5"))
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
