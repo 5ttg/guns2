@@ -7,7 +7,7 @@ from playwright.async_api import async_playwright
 
 BASE_URL = "https://guns.lol/{}"
 
-CHARS = string.ascii_lowercase + string.digits + string.punctuation
+CHARS = string.ascii_lowercase + string.digits
 RATE_RETRY_DELAY = 120
 
 # -------- ENV -------- #
